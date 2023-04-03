@@ -1,5 +1,6 @@
 const openMenu = document.querySelector('.openmenu')
 const closeMenu = document.querySelector('.closemenu')
+const mainMenu = document.querySelector('header nav ul')
 
 
 openMenu.addEventListener('click', show)
@@ -12,5 +13,3 @@ function show () {
 function close () {
   mainMenu.style.top = '100%'
 }
-
-
