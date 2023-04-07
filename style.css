@@ -1,5 +1,4 @@
 body {
-    font-size: 15px;
     padding: 0;
     margin: 0;
     list-style: none;
@@ -115,7 +114,6 @@ header img {
   padding: .3rem .7rem;
   margin-top: 1rem;
 }
-
 
 /*Featured Styles*/
 .featured-styles {
@@ -267,42 +265,44 @@ header img {
 }
 /*Footer*/
 footer {
-  padding: 3rem 0rem 0rem 0rem;
-  margin-bottom: 0rem;
-  background: #111111;
-  color: white;
-}
-.footer-wrap {
-  padding: 1rem;
-}
-.footer-main {
-  border-bottom: 0.04px solid dimgrey;
-  font-size: 0.7rem;
-  font-family: poppins;
-  font-weight: 300;
-}
-footer p {
-  color: dimgrey;
-  font-family: poppins;
-}
-.footer-main-2 {
-  border-bottom: 0.01px solid dimgrey;
-}
-.sm-icons {
-  display: flex;
-  gap: 1rem;
-  padding-left: 1rem;
-}
-.sm-icons i {
-  color: black;
-  background: grey;
-  padding: .5rem;
-  border-radius: 50px;
-}
+    background: black;
+    color: white;
+    padding: 1.5rem;
+    position: relative;
+  }
+  footer a {
+    text-decoration: none;
+  }
+  footer h3 {
+    color: white;
+    font-size: .8rem;
+  }
+  .footer-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+  }
+  footer p {
+    color: gray;
+    font-size: 1rem;
+  }
+  .footer-icons {
+    display: flex;
+    gap: 1.5rem;
+  }
+  .footer-icons i {
+    background: grey;
+    color: black;
+    border-radius: 50px;
+    padding: .5rem;
+  }
+  .about-nike {
+    border-bottom: 1px solid dimgrey;
+  }
+  
 @media all and (min-width: 800px) {
   /*Header styles*/
-  
-  header {
+    header {
     justify-content: space-around;
     padding: 0px 1rem;
   }
@@ -432,6 +432,7 @@ footer p {
   .membership .desktop {
     display: block;
     width: 57rem;
+    height: 13.5rem;
   }
   .membership-info {
     top: 0;
@@ -453,19 +454,25 @@ footer p {
   .membership-links h2 {
     display: none;
   }
-  /*Footer styles*/
-  footer section {
-    display: flex;
-    justify-content: space-between;
+  .membership-links p {
+    font-size: 1rem;
+  }
+  .membership-links h3 {
+    font-size: 1.25rem;
   }
   .footer-wrap {
-    display: flex;
-    gap: 2.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 2fr 1fr;
+  column-gap: 2rem;
   }
-  .footer-main, .footer-main-2 {
-    border-bottom: none;
+  .footer-icons {
+    position: absolute;
+    right: 7%;
   }
-  .sm-icons {
-    margin-right: 2rem;
+  h2 {
+    font-size: 1.3rem;
+  }
+  div p, div h3 {
+    line-height: 1.5rem;
   }
 }
