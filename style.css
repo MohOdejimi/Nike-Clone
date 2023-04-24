@@ -255,6 +255,7 @@ header img {
 .membership .links {
   display: flex;
   gap: .7rem;
+  margin-top: -.8rem;
 }
 .links h4 {
   background: white;
