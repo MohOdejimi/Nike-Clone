@@ -189,6 +189,16 @@ header img {
   font-weight: 200;
   margin-top: -.7rem;
 }
+.popular-head {
+  display: flex;
+  justify-content: space-between;
+}
+.popular-head i {
+  background: white;
+  color: black;
+  text-align: center;
+  border-radius: 50%;
+}
 .popular-base {
   display: flex;
   justify-content: space-between;
@@ -226,6 +236,7 @@ header img {
 }
 .membership .mobile {
   width: 20rem;
+  height: 27.9rem;
 }
 .membership-wrap {
   position: relative;
