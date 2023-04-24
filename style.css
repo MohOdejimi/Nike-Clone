@@ -236,7 +236,7 @@ header img {
 }
 .membership .mobile {
   width: 20rem;
-  height: 27.9rem;
+  
 }
 .membership-wrap {
   position: relative;
@@ -255,7 +255,7 @@ header img {
 .membership .links {
   display: flex;
   gap: .7rem;
-  margin-top: -.8rem;
+  margin-top: -1.2rem;
 }
 .links h4 {
   background: white;
