@@ -376,7 +376,7 @@ footer {
   }
   .hero-section .desktop {
     display: block;
-    width: 75rem;
+    width: 73rem;
     height: 13.5rem;
   }
   .hero-section-head {
@@ -402,9 +402,10 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: .5rem;
+    width: 75rem;
   }
   .featured-styles img {
-    width: 28rem;
+    width: 37rem;
   }
   
   /*Trending*/
@@ -413,7 +414,7 @@ footer {
   }
   .trending .desktop {
     display: block;
-    width: 57rem;
+    width: 73rem;
   }
  .trending h1 {
    font-size: 3.5rem;
@@ -428,6 +429,13 @@ footer {
    align-items: center;
    gap: .1rem;
  } 
+  #New {
+    width: 75rem;
+  }
+ #New img {
+   width: 25rem;
+ }
+ 
  /* Popular styles*/
  .popular img {
    width: 20rem;
@@ -447,7 +455,7 @@ footer {
  }
   .membership .desktop {
     display: block;
-    width: 57rem;
+    width: 73rem;
     height: 13.5rem;
   }
   .membership-info {
